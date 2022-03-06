@@ -114,12 +114,16 @@ h1 {
 	position: relative;
 	left: 10px;
 }
+
+/* SERIE */
+
 .seria {
 	
 	height: 370px;
 	width: 250px;
 	background-color: #000000;
 	margin: 50px;
+	cursor: pointer;
 }
 .seria-image {
 	height: 370px;
@@ -130,13 +134,13 @@ h1 {
 	
 
 }
-.seria-image-img:hover + .seria-hidden-descr {
+/* .seria-image-img:hover + .seria-hidden-descr {
 	display: block;
 
-}
+} */
 .seria-hidden-descr {
-	display: none;
-	transition: 2s;
+	/* display: none; */
+	transition: 1s;
 	
 
 }
@@ -159,12 +163,85 @@ h1 {
 	margin-bottom: 50px;
 	
 }
-#img3 {
+#seria-hidden-descr-1 {
+	opacity: 0;
+	
+}
+#seria-hidden-descr-1 p {
+	margin-top: 0px;
+	padding: 15px;
+	padding-top: 100px;
+	text-align: center;
+	height: 235px;
+	opacity: 1;
+	
+}
+#seria-hidden-descr-2 {
+	opacity: 0;
+	
+}
+#seria-hidden-descr-2 p {
+	margin-top: 0px;
+	padding: 15px;
+	padding-top: 100px;
+	text-align: center;
+	height: 235px;
+	opacity: 1;
+	
+}
+#seria-hidden-descr-3 {
+	opacity: 0;
+	
+}
+#seria-hidden-descr-3 p {
+	margin-top: 0px;
+	padding: 15px;
+	padding-top: 100px;
+	text-align: center;
+	height: 235px;
+	opacity: 1;
+	
+}
+#seria-image-1 :hover{
+	opacity: 1;
+	/* display: block; */
+	color: white;
 
 }
+#seria-image-2 :hover{
+	opacity: 1;
+	/* display: block; */
+	color: white;
+
+}
+#seria-image-3 :hover{
+	opacity: 1;
+	/* display: block; */
+	color: white;
+
+}
+#seria-image-3 :hover {
+opacity: 1;
+}
+#seria-image-1 {
+	background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEhiLB4T7jnkKsFzl9BMSJ0IfbMBVP-Xr6n_IfW2H0T5PXv2jWynD1Bi4Bsdk4C9CiEijVg1ojfmht2tZ10k1PS9gfVgBVurN38tQ8WTQyPIqqA7z1-rKCmEv_IHQTi2rYPEspzoNv-wejfEdMMDl16n-xYo69xudvh5Q9dm6pQVEraNIiFZSvmZJe9Ygw=w307-h455");
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.5;
+	
+}
+#seria-image-2 {
+	background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEhViU7VFEMdxMimAz7wxTkn3Y8p6PeWt5Erbds-JOY3RAniCmlB3Rvaof6wsBZyiJtqQc-HDdmcJdBzYjsdRrvKza5Mgy8yG6LP0JUojvFjQGxDB5QVDxhFuESXSQVxM_Bck68HOhTwHnHJ0-hWfAzEyup_JlSZk29iAQs-b_bOIGzyJDMMmOeLSzSEkw=w292-h435");
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.5;
+	
+}
+
 #seria-image-3 {
 	background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEhIDqWYV6hb3ikv9WSXnzNmME3WjVTNCadHo6_fuFbyXqeGT34CqVGxYUOnoAbhFhrN4j4bq2MILy5OhE0mEjeqhHTuGTBwk0_ni4Yk4_xdlL_u53g1lPGxwTXEiy6FPmym7cefapEafXArRxavWi63ovMWcCeoPhd_JkA03j5k90ijBAO4_g7NOdPLBQ=w249-h368");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: ;
+	opacity: 0.5;
+	
 }
