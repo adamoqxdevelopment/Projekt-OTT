@@ -7,7 +7,6 @@ Nav/Footer: #7a0000
 Tło: #141414
 Tło jaśniejsze: #2e2e2e
 
-
 */
 
 /* Elementy Strony */
@@ -23,6 +22,20 @@ html, body {
 
 h1 {
 	color: #ff0303;
+}
+
+/* Stopka */
+
+footer {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+	left: 0;
+	right: 0;
+	background-color: #242424;
+	text-align: center;
+	vertical-align: center;
+	height: 60px;
 }
 
 /* Nagłówek */
@@ -90,6 +103,7 @@ div.content {
   padding: 1px 16px;
   height: 1000px;
   margin-top: 50px;
+  box-shadow: inset 0px 8px 40px -6px rgba(0, 0, 0, 0.82);
 }
 
 @media screen and (max-width: 700px) {
@@ -108,6 +122,37 @@ div.content {
     float: none;
   }
 }
+
+/* Komunikat */
+
+.komunikat {
+  background-color: #ffd9d9;
+  border-left: 6px solid #ff0303;
+  color: black;
+  height: 30px;
+  vertical-align: center;
+}
+
+/* Widgety */
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px 10px;
+  height: 300px;
+  border-radius: 25px;
+  border: 2px solid #ff0303;
+  padding: 10px;
+  background-color: #141414;
+  margin: 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 

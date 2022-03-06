@@ -64,12 +64,12 @@ h1 {
 }
 
 .header {
-	display: inline-block;
+	/* display: inline-block; */
 	float: left;
 }
 
 .header2 {
-	display: inline-block;
+	/* display: inline-block; */
 	float: left;
 	width: 50%;
 	position: relative;
@@ -185,7 +185,7 @@ h1 {
 	padding: 15px;
 	padding-top: 100px;
 	text-align: center;
-	height: 235px;
+	/* height: 235px; */
 	opacity: 1;
 	
 }
@@ -198,10 +198,19 @@ h1 {
 	padding: 15px;
 	padding-top: 100px;
 	text-align: center;
-	height: 235px;
+	/* height: 235px; */
 	opacity: 1;
-	
+	border: 1px red solid;
 }
+#seria-hidden-descr-3 #div-button {
+
+ 	text-align: center;
+	background-color: red;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+
 #seria-image-1 :hover{
 	opacity: 1;
 	/* display: block; */
