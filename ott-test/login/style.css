@@ -1,0 +1,226 @@
+/* Kolory:
+
+Nagłówki: #ff0303
+Tekst Zwykły: #ffd9d9
+Podświetlenia: #ffd9d9
+Nav: #7a0000
+Footer: #242424
+Tło: #141414
+Tło jaśniejsze: #2e2e2e
+
+*/
+
+/* Elementy Strony */
+
+html, body {
+	background-color: #2e2e2e;
+	color: #ffd9d9;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+
+}
+
+h1 {
+	color: #ff0303;
+	text-align: center;
+	display: inline;
+}
+
+p {
+	display: inline;
+}
+
+.zegar {
+	color: #ffd9d9;
+	display: inline;
+}
+
+.widget {
+	display: inline-block;
+	background-color: #2e2e2e;
+	border: 1px solid #ff0303;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+	
+	
+}
+
+.main {
+	width: 100%;
+}
+
+/* Stopka */
+
+footer {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+	left: 0;
+	right: 0;
+	background-color: #242424;
+	text-align: center;
+	vertical-align: center;
+	height: 60px;
+	box-shadow: 0px 8px 40px -12px rgba(0, 0, 0, 0.82);
+	padding-top: 5px;
+}
+
+/* Komunikat */
+
+.komunikat {
+  background-color: #ffd9d9;
+  border-left: 6px solid #ff0303;
+  color: black;
+  height: 30px;
+  vertical-align: center;
+}
+
+/* Widgety */
+
+.column {
+  width: 50%;
+  padding: 10px 10px;
+  margin: auto;
+  justify-content: center;
+  border: 1px solid #ff0303;
+  border-left: 8px solid #ff0303;
+  box-shadow: 0px 8px 40px -12px rgba(0, 0, 0, 0.82);
+  background-color: #141414;
+}
+
+.column2 {
+  width: 50%;
+  height: 30%;
+  padding: 10px 10px;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  vertical-align: center;
+  box-shadow: 0px 8px 40px -12px rgba(0, 0, 0, 0.82);
+  background-color: #141414;
+  display: block;
+}
+
+.column3 {
+  width: 50%;
+  height: 30%;
+  padding: 10px 10px;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  vertical-align: center;
+  background-color: #ffd9d9;
+  border-left: 6px solid #ff0303;
+  color: black;
+  display: block;
+}
+
+/* Guziki */
+
+.guzik {
+	background-color: #141414;
+	color: #ffd9d9;
+	font-family: 'Lato', sans-serif;
+	cursor: pointer;
+	padding: 18px;
+	border: 2px solid #ff0303;
+	text-align: center;
+	outline: none;
+	font-size: 18px;
+	margin: auto;
+
+}
+
+.guzik:hover {
+  background-color: #555;
+}
+
+/* Formularze */
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+
+/* Checkbox */
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #ff0303;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
